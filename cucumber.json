@@ -1,0 +1,283 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-19T23:51:48.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1386699255,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUP.SetDriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "The SignUp Functions to Swiggy Users",
+        "description": "",
+        "id": "swiggy-website-testing;the-signup-functions-to-swiggy-users",
+        "after": [
+          {
+            "result": {
+              "duration": 121118474,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUP.CloseDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2786205568,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the Swiggy Home Page",
+            "match": {
+              "location": "SwiggySignUp.the_user_is_already_on_the_swiggy_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5504525465,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on SignUp",
+            "match": {
+              "location": "SwiggySignUp.user_click_on_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318206634,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be go to SignUp Page",
+            "match": {
+              "location": "SwiggySignUp.user_should_be_redirected_to_signup_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T23:51:58.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1169811603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUP.SetDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Sign up the user to the Swiggy website",
+        "description": "",
+        "id": "swiggy-website-testing;sign-up-the-user-to-the-swiggy-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 114916522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUP.CloseDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2948232127,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user is already on the Signup page",
+            "match": {
+              "location": "SwiggySignUp.the_user_is_already_on_the_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5512062216,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"1234568591\" \"Terry\" \"Terry@xyz.com\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234568591",
+                  "offset": 13
+                },
+                {
+                  "val": "Terry",
+                  "offset": 26
+                },
+                {
+                  "val": "Terry@xyz.com",
+                  "offset": 34
+                },
+                {
+                  "val": "Test123",
+                  "offset": 54
+                }
+              ],
+              "location": "SwiggySignUp.user_enters_something_something_something_and_something(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3051080225,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click Continue button",
+            "match": {
+              "location": "SwiggySignUp.user_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79347889,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to SignUp",
+            "match": {
+              "location": "SwiggySignUp.user_should_be_able_to_signup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T23:52:11.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1035137124,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUP.SetDriver()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Provide the Kolkatta address",
+        "description": "",
+        "id": "swiggy-website-testing;provide-the-kolkatta-address",
+        "after": [
+          {
+            "result": {
+              "duration": 116025938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUP.CloseDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2818410848,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is already on the Signup Page",
+            "match": {
+              "location": "SwiggySignUp.user_is_already_on_the_Signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8034789463,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on Kolkatta",
+            "match": {
+              "location": "SwiggySignUp.user_click_on_Kolkatta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73315077,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user end testing",
+            "match": {
+              "location": "SwiggySignUp.user_end_testing()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy website Testing",
+    "description": "",
+    "id": "swiggy-website-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": [
+      {
+        "name": "@Search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
